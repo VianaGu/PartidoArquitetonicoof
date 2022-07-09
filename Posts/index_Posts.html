@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- Programando algo aleatorio -->
+    <meta name="author" content="Gustavo">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./style.CSS">
+    <!-- favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="../assetsGeral/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../assetsGeral/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../assetsGeral/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="shortcut icon" href="../assetsGeral/favicon.ico" type="image/x-icon">
+    <script defer src="modal.js"></script>
+    <script defer src="mobile-navbar.js"></script>
+    <!--x favicons x-->
+    <title>Arq.Urbanizando</title>
+</head>
+<body>
+    <div class="modal">
+        <div class="modal_content">
+            <img src="../Posts/assets/areaExterna.jpg" id="modal_img">
+        </div>
+        <span id="bt_close">&times;</span>
+    </div>
+    <!-- Barra de navegação -->
+    <header>
+        <nav>
+            <div class="ajustaLogo">
+                <img src="../assetsGeral/Logo.png" alt="Logo" class="logoImg">
+                <a class="logo" href="#">Arq.Urbanizando</a>
+            </div>
+            <div class="menu-btn" >
+                <i class="fa fa-bars fa-2x" onclick="menuShow()"></i>
+            </div>
+
+            <ul class="nav-list">
+                <!--  Links para proximas pag  -->
+                <li><a href="../Inicio/Index.html" >Inicio</a></li>
+                <li><a href="#" class="active">Projetos</a></li>
+                <li><a href="https://www.instagram.com/arq.urbanizando/" target="_blank">Contato</a></li>
+                <li><a href="/">Sobre</a></li>
+            </ul> 
+        </nav>
+    </header>
+    
+    
+    <main>
+        <!-- Posts -->
+        <!-- mostra a img em tamanho maior -->
+       
+        
+
+        <section id="IMGS">
+            <input type="radio" class="bt" name="bt" id="bt_todos" checked>
+            <label for="bt_todos" class="bt">TODOS</label>
+            <input type="radio" class="bt" name="bt" id="bt_externo">
+            <label for="bt_externo" class="bt">Exterior</label>
+            <input type="radio" class="bt" name="bt" id="bt_interno">
+            <label for="bt_interno" class="bt">Interior</label>
+            <input type="radio" class="bt" name="bt" id="bt_conceito">
+            <label for="bt_conceito" class="bt">Conceitos</label>
+            <div id="galeria">
+                <div class="row">
+                    <img src="assets/areaExterna.jpg" alt="areaExterna" class="externo" id="card_img">
+                    <img src="assets/conceito01.jpg" alt="conceito01" class="conceito" id="card_img">
+                    <img src="assets/conceito02.jpg" alt="conceito02" class="conceito" id="card_img">
+                </div>
+                <div class="row">
+                    <img src="assets/conceito03.jpg" alt="conceito03" class="conceito" id="card_img">
+                    <img src="assets/cozinha.jpg" alt="cozinha" class="interno" id="card_img">
+                    <img src="assets/ImagemDaCasa.jpg" alt="ImagemDaCasa" class="externo" id="card_img">
+                </div>
+                <div class="row">
+                    <img src="assets/Interior.jpg" alt="Interior" class="interno" id="card_img">
+                    <img src="assets/Lavanderia.jpg" alt="Lavanderia" class="interno" id="card_img">
+                    <img src="assets/Ondas.jpg" alt="Ondas" class="conceito" id="card_img">
+                </div>    
+            </div>
+        </section>
+    
+        <br>
+        
+        
+        
+        
+        
+        <!-- 
+       <table id="Casa">
+            <tr>
+                <th><a href="./assets/ImagemDaCasa.jpg" target="_blank" >
+                    <img width="100%" height="100%" src="./assets/ImagemDaCasa.jpg" alt="Imagens de Ondas"> 
+                    </a>
+                </th>  
+                <td>
+                    <p class="paragrafo">
+                        Esta é a fachada de um dos trabalhos deste semestre para a facul! 🤓
+                        <br>
+                        
+                        🏠 Se trata de um projeto unifamiliar (casa para uma família), com 180 m² de construção.
+                        <br>
+                        
+                        Seguindo nosso Partido Arquitetônico, <a href="https://www.instagram.com/vick.marino/" target="_blank">eu</a> 
+                        e o <a href="https://www.instagram.com/guibolado_/" target="_blank">@guibolado_</a> resolvemos colocar esta estrutura em um formato que lembra uma onda, impactando logo no primeiro contato 🌊 Já, a madeira faz a sustentação desta estrutura! 🪵
+                        <br>
+                        
+                        Além do exterior, também fomos desafiados a realizar o layout de interiores, desenhando e posicionando todos móveis!
+                        <br>
+                        <br>
+                        Vocês não perdem por esperar os próximos posts 🤭
+                    </p>    
+                </td>     
+            </tr>
+        </table>
+    
+        <table id="Casa">
+            <tr>
+                <th>
+                    <a href="./assets/Interior.jpg" target="_blank">
+                        <img width="100%" height="100%" src="./assets/Interior.jpg" alt="Interior">
+                    </a>
+                </th>
+                <td>
+                    <p class="paragrafo">
+                        Sejam bem-vindos! Entrando pela porta da frente da casa, chegamos nas salas 🛋️ <a href="https://www.instagram.com/guibolado_/" target="_blank">@guibolado_</a>
+                        <br><br>
+                        Nossos detalhes:
+                        <br><br>
+                        🪵 A madeira ripada no painel da tv e no assento da mesa de jantar traz os dois elementos do nosso partido arquitetônico: a própria madeira e a impressão ondulada dos detalhes ✨
+                        <br><br>
+                        🎨 Grande parte dos elementos nesse projeto de interiores está na cor Ouro Branco - <a href="https://www.instagram.com/tintas_suvinil/" target="_blank">@tintas_suvinil</a> 
+                        <br><br>
+                        🪑Móveis da <a href="https://www.instagram.com/decorattoindaiatuba/" target="_blank" rel="noopener noreferrer">@decorattoindaiatuba</a> 
+                    </p>
+                </td>
+            </tr>            
+        </table>
+         -->
+
+        <!-- footer -->
+        <footer>
+            <div class="container-footer">
+                <div class="row-footer">
+                    <!-- footer-col -->
+                    <div class="footer-col">
+                        <h4>Estudantes</h4>
+                        <ul>
+                            <li><a href="">Quem somos</a></li>
+                            <li><a href="">Nossos serviços</a></li>
+                        </ul>
+                    </div>
+                    <!-- end footer-col -->
+
+                    <!-- footer-col -->
+                    <div class="footer-col">
+                        <h4>Obter Ajuda</h4>
+                        <ul>
+                            <li><a href="">FAQ</a></li>
+                            <li><a href="">Contato</a></li>
+                        </ul>
+                    </div>
+                    <!-- end footer-col -->
+                    <!-- footer-col -->
+                    <div class="footer-col">
+                        <h4>Sugestões</h4>
+                        <!-- Form sub -->
+                        <div class="form-sub">
+                            <form
+                                action="https://formsubmit.co/gustaolive1234@gmail.com"
+                                method="POST"
+                                class="form"
+                                >
+                                <label for="name">Nome</label>
+                                <input type="text" name="name" id="name" required />
+                                <label for="email">E-mail</label>
+                                <input type="email" name="email" id="email" placeholder="Digite seu e-mail" required />
+                                <label for="message">Mensagem</label>
+                                <textarea name="message" id="message" required></textarea>
+                                <input
+                                    type="hidden"
+                                    name="_next"
+                                    value="http://127.0.0.1:5500/PartidoArquitetonico/Inicio/Index.html"
+                                />
+                                <button type="submit" id="button">Enviar</button>
+                            </form>
+                        </div>
+                        <!-- end Form sub -->
+                </div>
+                <!-- end footer-col -->
+                <!-- footer-col -->
+                <div class="footer-col">     
+                        <div class="medias-sociais">
+                            <a href=""><i class="fa fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/arq.urbanizando/" target="_blank"><i class="fa fa-instagram"></i></a>
+                            <a href=""><i class="fa fa-linkedin"></i></a>
+                            <a href="mailto:gustaolive1234@gmail.com"><i class="fa fa-twitter"></i></a>
+                        </div>
+                    
+                    
+                <!-- end footer-col -->
+                </div>
+            </div>
+        </footer>
+        <!--x footer x-->
+
+    
+    </main>
+    
+    
+  
+    
+    
+    <!-- post -->
+    <a href="#" id="linkTopo">&#9650;</a>
+    
+</body>
+</html>
