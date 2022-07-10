@@ -27,89 +27,6 @@ main {
   height: 92vh;
 }
 
-/* barra de navegação */
-.logo {
-  font-size: 24px;
-  text-transform: uppercase;
-  letter-spacing: 4px;
-}
-
-.logoImg {
-  width: 10vh;
-  height: 10vh;
-  border-radius: 50%;
-  margin: 10px;
-}
-#linkTopo {
-  text-decoration: none;
-  color: #fff;
-  background-color: #3B3B3B;
-  padding: 10px;
-  position: fixed;
-  right: 10px;
-  bottom: 10px;
-  border-radius: 50%;
-}
-
-.ajustaLogo{ 
-  display: flex;
-  justify-content: space-around;
-  align-items: inherit;
-  font-family: 'Poppins', sans-serif;
-  background: #E0E0E0;
-  height: 8vh;
-  margin-left: -15vh;
-}
-
-
-
-
-/* Barra de navegação */
-
-nav {
-  display: flex;
-  height: 80px;
-  /* width: 100%; */
-  background-color: #E0E0E0;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 50px 0 100px;
-  flex-wrap: wrap;
-  font-family: 'Poppins', sans-serif;
-}
-
-
-.nav-list  {
-  list-style: none;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.nav-list li {
-  margin: 0 5px;
-}
-
-.nav-list li a{
-  text-decoration: none;
-  font-size: 18px;
-  font-weight: 500;
-  padding: 8px 15px;
-  border-radius: 5px;
-  letter-spacing: 1px;
-  transition: all 0.3s ease;
-}
-
-
-.nav-list li a.active,
-.nav-list li a:hover{
-    background: #6d6c6c;
-}
-
-nav .menu-btn i{
-  color: #fff;
-  cursor: pointer;
-  display: none;
-}
 /* galeria de imagens  */
 
 #modal_img{
@@ -205,6 +122,11 @@ nav .menu-btn i{
   background-color: #B1B2AD;
 }
 
+#IMGS .bt:hover + label{
+  background-color: #6d6c6c;
+}
+
+
 #card_img{
   width: 300px;
   height: 300px;
@@ -222,9 +144,6 @@ nav .menu-btn i{
   display: none;
 }
 
-#IMGS .bt:hover + label{
-  background-color: #6d6c6c;
-}
 
 #bt_externo:checked ~ #galeria .interno,
 #bt_externo:checked ~ #galeria .conceito{
@@ -440,63 +359,7 @@ footer {
   
 @media (max-width: 999px) {
 
-  body{
-    overflow-x: hidden;
-  }
-
-  .logo{
-    font-size: 17px;
-  }
-  .ajustaLogo{ 
-    display: flex;
-    justify-content: space;
-    align-items: inherit;
-    font-family: 'Poppins', sans-serif;
-    background: #E0E0E0;
-    height: 8vh;
-    margin-left: -7vh;
-  }
-  .logoImg {
-    display: none;
-  }
-  nav .menu-btn i{
-    display: block;
-  }
-   nav .nav-list{
-    position: fixed;
-    top: 80px;
-    left: -100%;
-    background-color: #C6C7C2;
-    height: 100vh;
-    width: 100%;
-    text-align: center;
-    display: block;
-    transition: all 0.3s ease;
-  }
-  nav ul.open{
-    left: 0;
-  }
-
-  .nav-list li{
-    width: 100%;
-    margin: 50px 0;
-  }
-
-  .nav-list li a{
-    font-size: 23px;
-  }
-  nav ul li a.active,
-  nav ul li a:hover{
-      background: none;
-      color: #928d8d;
-  }
-
-
-  
-
-  
-
-  #galeria img{
+    #galeria img{
     
     width: 200px;
     height: 200px;
