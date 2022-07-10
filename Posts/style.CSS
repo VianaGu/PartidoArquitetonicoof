@@ -213,8 +213,8 @@ nav .menu-btn i{
   transition: all linear 0.4s;
 }
 #card_img:hover{
-  filter: grayscale(100%);
-  transform: scale(1.1);
+  filter: grayscale(50%);
+  transform: scale(1.3);
 }
 
 
