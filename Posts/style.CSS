@@ -222,6 +222,10 @@ nav .menu-btn i{
   display: none;
 }
 
+#IMGS .bt:hover + label{
+  background-color: #6d6c6c;
+}
+
 #bt_externo:checked ~ #galeria .interno,
 #bt_externo:checked ~ #galeria .conceito{
   opacity: 0.4;
