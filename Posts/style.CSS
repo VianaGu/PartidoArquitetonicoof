@@ -528,6 +528,8 @@ footer {
     text-align: center;
     cursor: pointer;
   }
+
+  
   
 }
 @media (max-width: 800px) {
@@ -547,6 +549,12 @@ footer {
     width: 99vw;
   }
 
+  #modal_img{
+    width: 70%;
+    transform: scale(1.5);
+    transition: all linear 0.3s;
+  
+  }
   #galeria{
     max-width: 99vw;
    
