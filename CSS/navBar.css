@@ -156,7 +156,7 @@
     }
     .ajustaLogo{ 
       display: flex;
-      justify-content: space;
+      justify-content: space-around;
       align-items: inherit;
       font-family: 'Poppins', sans-serif;
       background: #E0E0E0;
