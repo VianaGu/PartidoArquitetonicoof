@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link defer rel="stylesheet" href="./style.CSS">
     <link defer rel="stylesheet" href="../CSS/navBar.css">
+    <link defer rel="stylesheet" href="../CSS/Footer.css">
     <!-- x CSS x  -->
     <!-- favicons -->
     <link rel="apple-touch-icon" sizes="180x180" href="../assetsGeral/apple-touch-icon.png">
@@ -26,7 +27,8 @@
     <!-- mostra a img em tamanho maior -->
     <div class="modal">
         <div class="modal_content">
-            <img src="../Posts/assets/areaExterna.jpg" id="modal_img">
+            <img src="../Posts/assets/areaExterna.jpg" id="modal_img" value="teste">
+            <Aside class="description"></Aside>
         </div>
         <span id="bt_close">&times;</span>
     </div>
@@ -57,89 +59,26 @@
         <section id="IMGS">
             <input type="radio" class="bt" name="bt" id="bt_todos" checked>
             <label for="bt_todos" class="bt">TODOS</label>
-            <input type="radio" class="bt" name="bt" id="bt_externo">
-            <label for="bt_externo" class="bt">Exterior</label>
-            <input type="radio" class="bt" name="bt" id="bt_interno">
-            <label for="bt_interno" class="bt">Interior</label>
-            <input type="radio" class="bt" name="bt" id="bt_conceito">
-            <label for="bt_conceito" class="bt">Conceitos</label>
+            <input type="radio" class="bt" name="bt" id="bt_casaGV">
+            <label for="bt_casaGV" class="bt">Casa GV</label>
             <div id="galeria">
                 <div class="row">
-                    <img src="assets/areaExterna.jpg" alt="areaExterna" class="externo" id="card_img">
-                    <img src="assets/conceito01.jpg" alt="conceito01" class="conceito" id="card_img">
-                    <img src="assets/conceito02.jpg" alt="conceito02" class="conceito" id="card_img">
+                    <section class="container" id="card_img">
+                        <a href="../Projetos/index_projetos.html">
+                            <img src="../Projetos/assets/areaExterna.png"  alt="areaExterna" class="casaGV, principal" id="card_img"/>
+                            <aside class="desc">
+                                Casa GV 
+                            </aside>
+                        </a>
+                    </section>
+                    <img src="assets/conceito01.jpg" alt="conceito01" class="casaGV" id="card_img">
+                    <img src="assets/conceito02.jpg" alt="conceito02" class="casaGV" id="card_img">
                 </div>
-                <div class="row">
-                    <img src="assets/conceito03.jpg" alt="conceito03" class="conceito" id="card_img">
-                    <img src="assets/cozinha.jpg" alt="cozinha" class="interno" id="card_img">
-                    <img src="assets/ImagemDaCasa.jpg" alt="ImagemDaCasa" class="externo" id="card_img">
-                </div>
-                <div class="row">
-                    <img src="assets/Interior.jpg" alt="Interior" class="interno" id="card_img">
-                    <img src="assets/Lavanderia.jpg" alt="Lavanderia" class="interno" id="card_img">
-                    <img src="assets/Ondas.jpg" alt="Ondas" class="conceito" id="card_img">
-                </div>    
             </div>
         </section>
     
         <br>
-        
-        
-        
-        
-        
-        <!-- 
-       <table id="Casa">
-            <tr>
-                <th><a href="./assets/ImagemDaCasa.jpg" target="_blank" >
-                    <img width="100%" height="100%" src="./assets/ImagemDaCasa.jpg" alt="Imagens de Ondas"> 
-                    </a>
-                </th>  
-                <td>
-                    <p class="paragrafo">
-                        Esta é a fachada de um dos trabalhos deste semestre para a facul! 🤓
-                        <br>
-                        
-                        🏠 Se trata de um projeto unifamiliar (casa para uma família), com 180 m² de construção.
-                        <br>
-                        
-                        Seguindo nosso Partido Arquitetônico, <a href="https://www.instagram.com/vick.marino/" target="_blank">eu</a> 
-                        e o <a href="https://www.instagram.com/guibolado_/" target="_blank">@guibolado_</a> resolvemos colocar esta estrutura em um formato que lembra uma onda, impactando logo no primeiro contato 🌊 Já, a madeira faz a sustentação desta estrutura! 🪵
-                        <br>
-                        
-                        Além do exterior, também fomos desafiados a realizar o layout de interiores, desenhando e posicionando todos móveis!
-                        <br>
-                        <br>
-                        Vocês não perdem por esperar os próximos posts 🤭
-                    </p>    
-                </td>     
-            </tr>
-        </table>
     
-        <table id="Casa">
-            <tr>
-                <th>
-                    <a href="./assets/Interior.jpg" target="_blank">
-                        <img width="100%" height="100%" src="./assets/Interior.jpg" alt="Interior">
-                    </a>
-                </th>
-                <td>
-                    <p class="paragrafo">
-                        Sejam bem-vindos! Entrando pela porta da frente da casa, chegamos nas salas 🛋️ <a href="https://www.instagram.com/guibolado_/" target="_blank">@guibolado_</a>
-                        <br><br>
-                        Nossos detalhes:
-                        <br><br>
-                        🪵 A madeira ripada no painel da tv e no assento da mesa de jantar traz os dois elementos do nosso partido arquitetônico: a própria madeira e a impressão ondulada dos detalhes ✨
-                        <br><br>
-                        🎨 Grande parte dos elementos nesse projeto de interiores está na cor Ouro Branco - <a href="https://www.instagram.com/tintas_suvinil/" target="_blank">@tintas_suvinil</a> 
-                        <br><br>
-                        🪑Móveis da <a href="https://www.instagram.com/decorattoindaiatuba/" target="_blank" rel="noopener noreferrer">@decorattoindaiatuba</a> 
-                    </p>
-                </td>
-            </tr>            
-        </table>
-         -->
-
         <!-- footer -->
         <footer>
             <div class="container-footer">

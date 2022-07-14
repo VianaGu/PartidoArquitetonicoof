@@ -1,0 +1,219 @@
+
+
+footer {
+font-family: 'Poppins', sans-serif;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+background-color: #B1B2AD;
+padding: 50px 0;
+}
+
+.container-footer {
+max-width: 1400px;
+padding: 0 4%;
+margin: auto;
+}
+
+.row-footer {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+.footer-col{
+width: 25%;
+padding: 0 15px;
+}
+
+.footer-col h4{
+font-size: 22px;
+color: #fff;
+margin-bottom: 20px;
+font-weight: 500;
+position: relative;
+text-transform: uppercase;
+}
+
+.footer-col ul {
+list-style: none;
+}
+
+.footer-col ul li {
+margin: 10px 0;
+}
+
+.footer-col ul li a {
+font-size: 16px;
+text-transform: capitalize;
+color: #fff;
+text-decoration: none;
+font-weight: 300;
+display: block;
+transition:  all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+color: aquamarine;
+padding-left: 10px;
+}
+
+.footer-col .medias-sociais{
+margin-top: 30px;
+}
+
+.footer-col .medias-sociais a{
+display: inline-flex;
+align-items: center;
+justify-content: center;
+height: 40px;
+width: 40px;
+margin: 0 10px 10px 0;
+text-decoration: none;
+border-radius: 50%;
+color: #ffffff;
+border: 1px solid #fff;
+transition: all 0.5s ease;
+}
+
+.footer-col .medias-sociais a i {
+font-size: 20px;
+}
+
+.footer-col .medias-sociais a i {
+color: #fff;
+background-color: #B1B2AD;
+}
+.footer-col .medias-sociais a:hover {
+color: aquamarine;
+background-color: aquamarine;
+}
+
+.footer-col .form-sub input{
+width: 100%;
+padding: 10px;
+font-size: 15px;
+outline: none;
+border: 1px solid white;
+color: white;
+background-color: #B1B2AD;
+}
+
+.footer-col .form-sub input::placeholder{
+color: black;
+}
+
+.footer-col .form-sub button{
+width: 100%;
+margin-left: 10px;
+margin-top: 10px;
+padding: 10px; 
+font-size: 17px;
+outline: none;
+border: none;
+cursor: pointer;
+color: #B1B2AD;
+border-radius: 3px;
+font-weight: bold;
+background-color: white;        
+}
+
+
+/* Configura o form do footer */
+.form {
+width: 100%;
+max-width: 32rem;
+font-size: 1rem;
+}
+
+.form label,
+.form input,
+.form textarea,
+.form button {
+display: block;
+width: 100%;
+}
+
+.form label {
+color: #fff;
+line-height: 1;
+margin-bottom: 0.5rem;
+}
+
+.form input,
+.form textarea {
+font: inherit;
+padding: 0.8rem;
+margin-bottom: 1rem;
+border: 1px solid transparent;
+border-radius: 8px;
+transition: border-color, box-shadow 0.2s;
+}
+
+.form textarea {
+min-height: 2rem;
+resize: vertical;
+}
+
+.form input:hover,
+.form input:focus,
+.form textarea:hover,
+.form textarea:focus {
+outline: none;
+border-color: aquamarine;
+box-shadow: 0 0 0 3px aquamarine;
+}
+
+.form button {
+display: block;
+padding: 1rem;
+background: aquamarine;
+color: #fff;
+font: inherit;
+text-transform: uppercase;
+border: none;
+border-radius: 8px;
+cursor: pointer;
+transition: 0.2s;
+}
+
+.form button:hover,
+.form button:focus {
+outline: none;
+background: aquamarine;
+}
+
+/* footer responsivo */
+@media (max-width: 920px) {
+#message{
+    width: 80vw;
+}
+#email{
+    width: 80vw;
+}
+#name{
+    width: 80vw;
+}
+#button{
+    width: 80vw;
+}
+.footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+.footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media (max-width:600px) {
+.footer-col{
+    width: 100%;
+}
+
+.form {
+    width: 100%;
+    max-width: 10rem;
+    font-size: 1rem;
+}
+}

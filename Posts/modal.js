@@ -1,6 +1,7 @@
 let imagens= document.querySelectorAll('#card_img');
 let modal = document.querySelector('.modal');
 let modalImg = document.querySelector('#modal_img');
+
 let btClose = document.querySelector('#bt_close');
 let srcVal="";
 

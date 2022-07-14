@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--   CSS   -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link defer rel="stylesheet" href="./style.CSS">
+    <link defer rel="stylesheet" href="../CSS/navBar.css">
+    <link defer rel="stylesheet" href="../CSS/Footer.css">
+    <!-- x CSS x  -->
+    <!-- favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="../assetsGeral/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../assetsGeral/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../assetsGeral/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="shortcut icon" href="../assetsGeral/favicon.ico" type="image/x-icon">
+    <!--x favicons x-->
+    <script defer src="../JS/mobile-navbar.js"></script>
+    <title>Arq.Urbanizando</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="ajustaLogo">
+                <img src="../assetsGeral/Logo.png" alt="Logo" class="logoImg">
+                <a class="logo" href="#">Arq.Urbanizando</a>
+            </div>
+            <div class="menu-btn">
+                <i class="fa fa-bars fa-2x" onclick="menuShow()"></i>
+            </div>
+
+            <ul class="nav-list">
+                <!--  Links para proximas pag  -->
+                <li><a href="../Inicio/Index.html">Inicio</a></li>
+                <li><a href="../Projetos/index_projetos.html" class="active">Projetos</a></li>
+                <li><a href="https://www.instagram.com/arq.urbanizando/" target="_blank">Contato</a></li>
+                <li><a href="">Sobre</a></li>
+            </ul> 
+        </nav>
+    </header>
+    <main>
+        <!-- Posts -->
+        <section id="IMGS">
+            <div id="galeria">
+                <div class="row">
+                    <img src="assets/areaExterna.png" alt="areaExterna" class="casaGV" id="card_img">
+                    <img src="assets/quarto.png" alt="conceito01" class="casaGV" id="card_img">
+                    <img src="assets/salaPrincipal.png" alt="conceito02" class="casaGV" id="card_img">
+                </div>
+                <div class="row">
+                    <img src="assets/banheiro.png" alt="conceito03" class="casaGV" id="card_img" >
+                    <img src="assets/conforto.png" alt="cozinha" class="casaGV" id="card_img">
+                    <img src="assets/corredor.png" alt="ImagemDaCasa" class="casaGV" id="card_img">
+                </div>
+                <div class="row">
+                    <img src="assets/estudo.png" alt="Interior" class="casaGV" id="card_img">
+                    <img src="assets/Lavanderia.png" alt="Lavanderia" class="casaGV" id="card_img">
+                    <img src="assets/piaBanheiro.png" alt="Ondas" class="casaGV" id="card_img">
+                </div>    
+                <div class="row">
+                    <img src="assets/suite.png" alt="Interior" class="casaGV" id="card_img">
+                </div>    
+                
+            </div>
+        </section>
+
+        <!-- footer -->
+        <footer>
+            <div class="container-footer">
+                <div class="row-footer">
+                    <!-- footer-col -->
+                    <div class="footer-col">
+                        <h4>Estudantes</h4>
+                        <ul>
+                            <li><a href="">Quem somos</a></li>
+                            <li><a href="">Nossos serviços</a></li>
+                        </ul>
+                    </div>
+                    <!-- end footer-col -->
+                    <!-- footer-col -->
+                    <div class="footer-col">
+                        <h4>Obter Ajuda</h4>
+                        <ul>
+                            <li><a href="">FAQ</a></li>
+                            <li><a href="">Contato</a></li>
+                        </ul>
+                    </div>
+                    <!-- end footer-col -->
+                    <!-- footer-col -->
+                    <div class="footer-col">
+                        <h4>Sugestões</h4>
+                        <!-- Form sub -->
+                        <div class="form-sub">
+                            <form
+                                action="https://formsubmit.co/contatoarqurbanizando@gmail.com"
+                                method="POST"
+                                class="form"
+                                >
+                                <label for="name">Nome</label>
+                                <input type="text" name="name" id="name" placeholder="Digite seu nome" required />
+                                <label for="email">E-mail</label>
+                                <input type="email" name="email" id="email" placeholder="Digite seu e-mail" required />
+                                <label for="message">Mensagem</label>
+                                <textarea name="message" id="message" required></textarea>
+                                
+                                <input
+                                    type="hidden"
+                                    name="_next"
+                                    value="./Inicio/Index.html"
+                                />
+                                <button type="submit" id="button">Enviar</button>
+                            </form>
+                        </div>
+                        <!-- end Form sub -->
+                </div>
+                <!-- end footer-col -->
+                <!-- footer-col -->
+                <div class="footer-col">     
+                        <div class="medias-sociais">
+                            <a href=""><i class="fa fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/arq.urbanizando/" target="_blank"><i class="fa fa-instagram"></i></a>
+                            <a href=""><i class="fa fa-linkedin"></i></a>
+                            <a href=""><i class="fa fa-twitter"></i></a>
+                        </div>
+                    
+                    
+                <!-- end footer-col -->
+                </div>
+            </div>
+        </footer>
+
+        <!--x footer x-->
+    </main>
+<body>
+    
+</body>
+</html>
