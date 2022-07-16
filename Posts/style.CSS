@@ -230,7 +230,9 @@ main {
     cursor: pointer;
   }
 
-  
+  #IMGS{ 
+    width: 22rem;
+  }
   
 }
 @media (max-width: 800px) {
