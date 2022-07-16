@@ -18,10 +18,19 @@
     <link rel="manifest" href="/site.webmanifest">
     <link rel="shortcut icon" href="../assetsGeral/favicon.ico" type="image/x-icon">
     <!--x favicons x-->
+    <script defer src="../JS/modal.js"></script>
     <script defer src="../JS/mobile-navbar.js"></script>
     <title>Arq.Urbanizando</title>
 </head>
 <body>
+    <!-- mostra a img em tamanho maior -->
+    <div class="modal">
+        <div class="modal_content">
+            <img src="../Posts/assets/areaExterna.jpg" id="modal_img" value="teste">
+            <Aside class="description"></Aside>
+        </div>
+        <span id="bt_close">&times;</span>
+    </div>
     <header>
         <nav>
             <div class="ajustaLogo">
@@ -35,15 +44,27 @@
             <ul class="nav-list">
                 <!--  Links para proximas pag  -->
                 <li><a href="../Inicio/Index.html">Inicio</a></li>
-                <li><a href="../Projetos/index_projetos.html" class="active">Projetos</a></li>
+                <li><a href="../Posts/index_Posts.html" class="active">Projetos</a></li>
                 <li><a href="https://www.instagram.com/arq.urbanizando/" target="_blank">Contato</a></li>
                 <li><a href="">Sobre</a></li>
             </ul> 
         </nav>
     </header>
+    
     <main>
         <!-- Posts -->
+        <section class="imgBonita">
+            <br>
+            <br>
+            <br>
+            <br><br><br><br>
+            <br>
+            <br>
+            <br>
+            <br><br><br><br>
+        </section>
         <section id="IMGS">
+            
             <div id="galeria">
                 <div class="row">
                     <img src="assets/areaExterna.png" alt="areaExterna" class="casaGV" id="card_img">
@@ -59,11 +80,7 @@
                     <img src="assets/estudo.png" alt="Interior" class="casaGV" id="card_img">
                     <img src="assets/Lavanderia.png" alt="Lavanderia" class="casaGV" id="card_img">
                     <img src="assets/piaBanheiro.png" alt="Ondas" class="casaGV" id="card_img">
-                </div>    
-                <div class="row">
                     <img src="assets/suite.png" alt="Interior" class="casaGV" id="card_img">
-                </div>    
-                
             </div>
         </section>
 

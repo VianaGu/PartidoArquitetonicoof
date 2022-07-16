@@ -9,8 +9,8 @@
 
 
 body{
-    background-image: linear-gradient(-45deg, #C6C7C2, #C6C7C2, #B1B2AD);
-    background-attachment: fixed;
+    background-image: linear-gradient(90deg, #C6C7C2, #C6C7C2, #B1B2AD);
+    background-attachment: scroll;
     overflow-x: hidden;
 }
 /* Meus css */
@@ -24,7 +24,7 @@ main {
   background-image: linear-gradient(top, #C6C7C2, #585857);
 }
 
-aside.desc{
+.desc{
   position: absolute;
   font-size: 33px;
   text-align: center;
@@ -35,6 +35,7 @@ aside.desc{
   background-color: rgba(53, 54, 56, 0.678);
   margin-bottom: 40px;
 }
+
 
 /* galeria de imagens  */
 
@@ -73,7 +74,7 @@ aside.desc{
   background-color: #000;
   position: absolute;
   top:10px;
-  right: 10px;
+  right: 40px;
   padding: 5px 10px;
   font-size: 25px;
   border:solid 1px #fff;
@@ -114,6 +115,8 @@ aside.desc{
   flex-wrap: wrap;
 }
 
+
+
 #IMGS label{
   width: 175px;
   padding: 20px 10px;
@@ -153,7 +156,7 @@ aside.desc{
 }
 
 #bt_todos:checked ~ #galeria .casaGV{
-  display: block !important; 
+  display: block; 
 }
 
 /* #bt_todos:checked + #galeria .principal
@@ -161,7 +164,7 @@ aside.desc{
   
 } */
 
-#bt_casaGV:checked ~ #galeria .casaGV{
+#bt_casaGV:checked ~ #galeria .teste{
   display: none;
 }
 
@@ -191,11 +194,23 @@ aside.desc{
     object-fit: cover;
     object-position: bottom;
   }
+  .desc{
+    position: absolute;
+    font-size: 33px;
+    text-align: center;
+    width: 226px !important;
+    height: 108px !important;
+    top: 120px;
+    color: whitesmoke;
+    background-color: rgba(53, 54, 56, 0.678);
+    margin-bottom: 40px;
+  }
   
   .row{
     display: flex;
+    margin-left: 15vw;
     padding: 5px;
-    width: 26vw;
+    width: 55vw;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;

@@ -55,10 +55,11 @@ a:hover {
     /* width: 100%; */
     background-color: #E0E0E0;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 0 50px 0 100px;
     flex-wrap: wrap;
     font-family: 'Poppins', sans-serif;
+    z-index: 1;
   }
   
   
@@ -66,6 +67,7 @@ a:hover {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
+    z-index: 2;
   }
   
   .nav-list li {
@@ -127,11 +129,12 @@ a:hover {
     height: 100vh;
     width: 100%;
     text-align: center;
-    display: block;
+    display: block !important;
     transition: all 0.3s ease;
   }
   nav ul.open{
     left: 0;
+    z-index: 2;
   }
 
   .nav-list li{
@@ -185,7 +188,7 @@ a:hover {
       height: 100vh;
       width: 100%;
       text-align: center;
-      display: block;
+      display: block ;
       transition: all 0.3s ease;
     }
     nav ul.open{
