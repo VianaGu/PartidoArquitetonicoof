@@ -4,7 +4,10 @@ let modalImg = document.querySelector('#modal_img');
 
 let btClose = document.querySelector('#bt_close');
 let srcVal="";
-
+/* 
+* Get path image 
+* Set settings modal
+*/
 for(let i =0; i<imagens.length;i++){
     imagens[i].addEventListener('click',function(){
         

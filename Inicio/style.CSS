@@ -1,6 +1,6 @@
-/* Projeto base navbar */
-/* https://github.com/tigercodes-io/navbar */
+/* Import Text Font */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -21,10 +21,7 @@ body{
     background-attachment: fixed;
 }
 
-
-/* Meus css */
 main {
   background-size: cover;
   height: 92vh;
 }
-/* rodapé */
